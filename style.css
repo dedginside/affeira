@@ -1,0 +1,183 @@
+
+.main_branding{
+    display:flex;
+    align-items: center;   
+    justify-content: center;
+    gap:15px;
+    width:max-content;
+    height:12vh;
+    background-color: #fefff2;
+}
+.main_header{
+    display:flex;
+    align-items: center;   
+    justify-content: center;
+    gap:10px;
+    width:max-content;
+}
+.main_a{
+    color:#3894e9;
+}
+.header_text{
+    font-family: Comfortaa;
+    font-size:60px;
+    color: #2e2e2e;
+    margin:none;
+    padding-left: 16%;
+    padding-right:16%;
+}
+.location{
+    font-family: Comfortaa;
+    font-size:25px;
+    color:#3894e9; /*Este cambiara según la Universidad */
+}
+.main_weblogo{
+    width:70px;
+    border-radius: 40px;
+    height: 70px;
+}
+.search_general{ /*Cómo hago que se sopreponga y se respete el espacio?*/
+    position:relative;
+    font-family: Comfortaa;
+    font-size: 25px;
+    display:inline-block;
+    width:40vw;
+    background-color:#84bdf2;
+    height: 50px;
+    border:none;
+    border-radius:22px;
+    padding-left:10px;
+    padding-right: 10px;
+    color:#fefff2;
+    outline: none;
+}
+.search_button{ /*Cómo hago que se sopreponga y se respete el espacio?*/
+    position:absolute;
+    background: none;
+    display:flex;
+    background-color: #84bdf2;
+    border:none;
+    color:#fefff2;
+    cursor:pointer;
+    transform: translatex(120%);
+    justify-content: center;    /* Centra horizontalmente */
+    align-items: center;
+    width: 80px;
+    height: 52px; 
+    border-radius: 22px;
+}
+.search_tupide{
+    display: flex;              /* Ahora el botón es flex container */
+    justify-content: center;    /* Centra horizontalmente */
+    align-items: center;        /* Centra verticalmente */
+    width: 200px;
+    height: 50px;
+    font-family: Comfortaa;
+    font-size: 25px;            
+    background-color: #3894e9;
+    color: white;               /* Para que el texto contraste */
+    border: none;               /* Opcional */
+    border-radius: 5px;         /* Opcional */
+    cursor: pointer;      
+}
+.search_tupide:hover{
+    background-color:rgb(11, 164, 235); /*No estoy del todo convencido del color */
+}
+.second_marketing{
+    font-family: Comfortaa,Sans-serif;
+    background-color:#fefff2;
+    width:100vw;
+    font-size:600%;
+    color:black;
+    height:32vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.slogan{
+    color:#3894e9;
+}
+.main_inputs{
+    display:flex;
+    width:max-content;
+    height:max-content;
+    border:none;
+    align-items:center;
+    justify-content: center;
+    gap:40px;
+
+}
+
+.material-symbols-outlined{
+    padding-left:  7vw;
+    padding-right: 15px;
+}
+
+.menus_help{ /*Esta no me convence del todo, para nada de hecho, necesitamos mejores menus*/
+    display:inline-block;
+    width:200px;
+    height:50px;
+    border:none;
+    align-items:center;
+    justify-content: center;
+    gap:40px;
+    color:#3894e9;
+    cursor:pointer;
+}
+
+.buttons_01{
+    display:inline-block;
+    width:100vw;
+    background-color: rgb(32, 105, 7);
+    height: max-content;
+    gap:20px;
+    align-items: center;
+}
+
+.new, .bazar, .my{
+    font-family: Comfortaa;
+    background-color:rgba(0,0,0,0);
+    color:black;
+    border:none;
+    font-size:26px;
+    justify-content:center;    
+}
+
+.new{
+    margin-right: 30px;
+}
+
+
+.merrygo_sells{
+    padding-top:10px;
+    font-family: Comfortaa,Sans-serif;
+    background-color:#fefff2;
+    width:100vw;
+    height:70vh;
+    justify-content:center;
+    align-items:center;
+}
+
+.sell{
+    display:inline-block;
+    width:max-content;
+    font-family: Comfortaa;
+    color:yellow;
+    margin-right:5vw;
+    margin-left:10vw;
+    margin-bottom:5vh;
+}
+
+.sell_img{
+    border-radius:18px;
+    width:18vw;
+}
+
+.brand{
+    color:#2e2e2e;
+}
+
+.body{
+    background-color: #fefff2;
+    min-height: 100vh;
+}
