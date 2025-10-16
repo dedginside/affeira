@@ -1,0 +1,85 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #e56161;
+  font-family: Comfortaa;
+  min-height: 100vh;
+  overflow-x: hidden; /* evita scroll lateral */
+}
+.bento-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+.item {
+  border-radius: 12px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  text-align: center;
+  color: #000;
+  padding: 20px;
+}
+
+/* Diferentes tamaños según la posición */
+.item1 {
+  grid-column: span 2;
+  grid-row: span 1;
+  background-color: #000;
+  color: white;
+}
+ /*lottie*/
+.item2 {
+  grid-column: span 1;
+  grid-row: span 2;
+  background-color: #01e1b6;
+  font-size: 2rem;
+}
+ /*ilustration*/
+.item3 {
+  grid-column: span 1;
+  grid-row: span 2;
+  background-color: #fff;
+}
+ /*Education team*/
+.item4 {
+  grid-column: span 1;
+  grid-row: span 1;
+  border: 2px dashed #01e1b6;
+}
+
+.item5 {
+  grid-column: span 1;
+  grid-row: span 1;
+  background-color: #fff;
+}
+/*lottie is...*/
+.item6 {
+  grid-column: span 2;
+  grid-row: span 1;
+  background-color: #fff;
+  font-size: 0.9rem;
+}
+
+.item7 {
+  background-color: #01e1b6;
+  color: white;
+}
+
+.item8 {
+  background-color: #01e1b6;
+  color: white;
+}
+
+.item9 {
+  background-color: #fff;
+}

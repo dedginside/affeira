@@ -1,0 +1,202 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/*si ajusto todo a un grid grandote el texto se ajusta solo */
+body {
+  background-color: #fefff2;
+  font-family: Comfortaa;
+  min-height: 100vh;
+  overflow-x: hidden; /* evita scroll lateral */
+}
+
+.main_header{
+    display:flex;
+    background-color:blue;
+    height: 10vh;
+    width: 100%;
+    position:relative; /*Contención*/
+    align-items: center;   
+}
+.main_menuh{
+    background-color: #fefff2;
+    margin: 4px 10px;
+    width: max-content;
+    padding: 5px 5px;
+}
+.main_brand{
+    color:#fefff2;
+    font-size: 45px;
+    gap:10px;
+    padding-left:10px;
+    padding-right:10px;  
+}
+.main_location{
+    position:relative; /*Los relatives son contenedores para iconos*/
+    background-color: #fefff2;
+    margin: 4px 5px;
+    width: max-content;
+    padding: 5px 5px;
+}
+.main_search{
+    position:relative; /*Los realtives son contenedores para iconos */
+    display:block;
+    position: relative;
+    margin-left:20px;
+    background-color: aqua;
+    font-size:20px;
+    border-radius:8px;
+    height:5vh;
+    width:40vw;
+    padding-left: 10px;
+}
+/*Me faltan los iconos especiales*/
+
+.second_marketing{
+    background-color: aquamarine;
+    height:30vh;
+    margin-left:3px;
+    margin-right:3px;
+    margin-top:3px;
+    margin-bottom: 5px;
+    font-size:60px;
+    border-radius: 4px;
+}
+.second_brand{
+    display:inline-block;
+    padding-left: 20px;
+    padding-top:30px;
+}
+.third_fastmenus{
+    display: flex; /* Estrcutura 1D */
+    height:10vh;
+    padding-left:10px;
+    background-color:brown;
+    margin: 0;
+    padding: 0;
+    align-items:center;
+    margin-left:3px;
+    margin-right:3px;
+    margin-top:3px;
+    margin-bottom: 5px;
+    border: none;
+}
+.third_chips_1{
+    height: 80%;
+    width:max-content;
+    font-size:40px;
+    font-family: Comfortaa;
+    margin: 7px 20px;
+    padding: 5px 20px;
+    border-radius: 9px;
+    border: none;
+    background-color: aqua;
+    color:#fefff2;
+    cursor:pointer;
+}
+.third_chips_2{
+    height: 80%;
+    width:max-content;
+    font-size:40px;
+    font-family: Comfortaa;
+    margin: 7px 20px;
+    padding: 5px 20px;
+    border-radius: 9px;
+    border: none;
+    background-color:blueviolet ;
+    color:#fefff2;
+    cursor:pointer;
+}
+.third_chips_3{
+    height: 80%;
+    width:max-content;
+    font-size:40px;
+    font-family: Comfortaa;
+    margin: 7px 20px;
+    padding: 5px 20px;
+    border-radius: 9px;
+    border: none;
+    background-color:chocolate;
+    color:#fefff2;
+    cursor:pointer;
+}
+
+/*ESTE ES EL GRID CONTAINER*/
+/*LOS GRIDS SE ACOMODAN POR COLUMNAS*/
+
+.forth_landing{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    background-color: blue;
+    height: 80vh;
+}
+.forth_bento_1{
+    position: relative;
+    display:flex;
+    margin: 5px 5px;
+    padding:10px 10px;
+    color:#fefff2;
+    font-size:40px;
+    background-color: rgb(248, 1, 1);
+    border:none;
+    border-radius: 10px;
+    grid-column: span 2;
+    grid-row: span 1;
+    
+}
+.forth_bento_2{
+    position: relative;
+    display:flex;
+    margin: 5px 5px;
+    padding:10px 10px;
+    color:#fefff2;
+    font-size:40px;
+    background-color: rgb(26, 248, 1);
+    border:none;
+    border-radius: 10px;
+    grid-column: span 1;
+    grid-row: span 1;
+}
+.forth_bento_3{
+    position: relative;
+    display:flex;
+    margin: 5px 5px;
+    padding:10px 10px;
+    color:#fefff2;
+    font-size:40px;
+    background-color: rgb(248, 244, 1);
+    border:none;
+    border-radius: 10px;
+    grid-column: span 1;
+    grid-row: span 1;
+}
+.forth_bento_4{
+    position: relative;
+    display:flex;
+    margin: 5px 5px;
+    padding:10px 10px;
+    color:#fefff2;
+    font-size: 40px;
+    background-color: rgb(1, 223, 248);
+    border:none;
+    border-radius: 10px;
+    grid-column: span 2;
+    grid-row: span 1;
+}
+/* FIN Elementos del vento grid*/
+
+/*Elementos del Footer*/
+.fifth_footer{
+    display:flex;
+    width:100vw;
+    height: 90px;
+    background-color: aquamarine;
+}
+.fifth_footer_1{
+    margin: none;
+    background-color: black;
+    color:#fefff2;
+    padding: 5px 5px;
+}
